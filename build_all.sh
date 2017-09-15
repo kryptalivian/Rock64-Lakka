@@ -10,6 +10,8 @@ DISTRO=Lakka PROJECT=Generic ARCH=i386 make image -j8
 DISTRO=Lakka PROJECT=RPi ARCH=arm make noobs -j8
 >&2 echo "RPi2.arm + noobs"
 DISTRO=Lakka PROJECT=RPi2 ARCH=arm make noobs -j8
+>&2 echo "ROCK64"
+DISTRO=Lakka PROJECT=ROCK64 ARCH=arm make image -j8
 >&2 echo "a20.arm"
 DISTRO=Lakka PROJECT=a20 ARCH=arm make image -j8
 >&2 echo "a10.arm"
